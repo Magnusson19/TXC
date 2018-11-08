@@ -115,9 +115,33 @@
             {
                 "drawing_id": "9754d02d-178c-4ac6-9ded-3781abd3db47",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"235\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Fet fins al punt 2 del document TXC</text></svg>",
+                "svg": "<svg height=\"40\" width=\"323\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Fet fins al punt 5 del document TXC pels routers:\nR1, R4, R6</text></svg>",
                 "x": -467,
                 "y": -344,
+                "z": 1
+            },
+            {
+                "drawing_id": "46914f42-65e3-420d-9641-5a9f5415f19e",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"84\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.4.5.0/24</text></svg>",
+                "x": -489,
+                "y": -93,
+                "z": 1
+            },
+            {
+                "drawing_id": "a4f9ce92-bd6c-41bc-8355-22abfb4dab48",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"84\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.4.6.0/24</text></svg>",
+                "x": -517,
+                "y": 61,
+                "z": 1
+            },
+            {
+                "drawing_id": "580c6d56-d491-4773-9ed4-9c91a9bcb96b",
+                "rotation": 0,
+                "svg": "<svg height=\"24\" width=\"84\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.6.7.0/24</text></svg>",
+                "x": -255,
+                "y": 67,
                 "z": 1
             }
         ],
@@ -436,7 +460,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5002,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
@@ -500,7 +524,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5003,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -594,7 +618,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5004,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -658,7 +682,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5005,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
@@ -722,7 +746,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5006,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -786,7 +810,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5007,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -850,7 +874,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5000,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -914,7 +938,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5007,
+                "console": 5001,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,

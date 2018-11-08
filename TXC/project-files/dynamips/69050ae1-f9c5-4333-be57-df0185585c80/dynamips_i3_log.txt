@@ -1,0 +1,14 @@
+Nov 02 15:02:57.710 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 02 15:02:57.711 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57342.
+Nov 02 15:02:58.198 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 02 15:02:58.198 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips 
+Nov 02 15:02:58.199 GENERAL: working_dir=C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips
+Nov 02 15:02:58.199 HYPERVISOR: exec_cmd: frsw create FR-1 
+Nov 02 15:03:03.244 HYPERVISOR: exec_cmd: nio create_udp udp-88ccecbf-3f93-43b8-9690-f5909eb6f307 10007 127.0.0.1 10006 
+Nov 02 15:03:03.302 HYPERVISOR: exec_cmd: nio create_udp udp-3e27d1b4-0852-4262-8976-0ac5ecbf2b84 10010 127.0.0.1 10011 
+Nov 02 15:03:03.303 HYPERVISOR: exec_cmd: frsw create_vc FR-1 udp-88ccecbf-3f93-43b8-9690-f5909eb6f307 101 udp-3e27d1b4-0852-4262-8976-0ac5ecbf2b84 202 
+Nov 02 15:03:03.304 HYPERVISOR: exec_cmd: frsw create_vc FR-1 udp-3e27d1b4-0852-4262-8976-0ac5ecbf2b84 202 udp-88ccecbf-3f93-43b8-9690-f5909eb6f307 101 
+Nov 02 15:13:06.095 HYPERVISOR: exec_cmd: frsw delete FR-1 
+Nov 02 15:13:06.130 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 02 15:13:06.531 HYPERVISOR: Stopped.
+Nov 02 15:13:06.531 GENERAL: reset done.

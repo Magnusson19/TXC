@@ -1,0 +1,73 @@
+Nov 08 22:35:49.308 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 08 22:35:49.309 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65330.
+Nov 08 22:35:49.475 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 08 22:35:49.476 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips 
+Nov 08 22:35:49.502 GENERAL: working_dir=C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips
+Nov 08 22:35:49.503 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips\f202140b-a711-4008-b6b8-6c4c6a169fb3 
+Nov 08 22:35:49.504 GENERAL: working_dir=C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips\f202140b-a711-4008-b6b8-6c4c6a169fb3
+Nov 08 22:35:49.504 HYPERVISOR: exec_cmd: vm create TA 1 c7200 
+Nov 08 22:35:49.507 VM: VM TA created.
+Nov 08 22:35:49.508 HYPERVISOR: exec_cmd: vm set_con_tcp_port TA 5002 
+Nov 08 22:35:49.509 HYPERVISOR: exec_cmd: c7200 get_mac_addr TA 
+Nov 08 22:35:49.509 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:35:49.510 HYPERVISOR: exec_cmd: vm slot_add_binding TA 0 0 C7200-IO-FE 
+Nov 08 22:35:49.511 HYPERVISOR: exec_cmd: vm set_disk0 TA 0 
+Nov 08 22:35:49.512 HYPERVISOR: exec_cmd: vm set_exec_area TA 64 
+Nov 08 22:35:49.513 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:35:49.513 HYPERVISOR: exec_cmd: vm set_idle_pc TA 0x606df838 
+Nov 08 22:35:49.515 HYPERVISOR: exec_cmd: vm set_ios TA C:/Users/nilmc/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 08 22:35:49.516 HYPERVISOR: exec_cmd: c7200 set_mac_addr TA ca01.3e20.0000 
+Nov 08 22:35:49.518 HYPERVISOR: exec_cmd: vm set_nvram TA 512 
+Nov 08 22:35:49.518 HYPERVISOR: exec_cmd: vm set_ram TA 512 
+Nov 08 22:35:49.520 HYPERVISOR: exec_cmd: vm set_con_tcp_port TA 5002 
+Nov 08 22:35:54.952 HYPERVISOR: exec_cmd: nio create_udp udp-ecf4651e-df14-4f3e-8aba-f8670f142fee 10002 127.0.0.1 10003 
+Nov 08 22:35:55.525 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TA 0 0 udp-ecf4651e-df14-4f3e-8aba-f8670f142fee 
+Nov 08 22:35:55.527 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:36:09.018 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 08 22:36:09.023 VM: VM Ghost created.
+Nov 08 22:36:09.026 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/nilmc/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 08 22:36:09.029 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 08 22:36:09.030 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-512.ghost' 
+Nov 08 22:36:09.032 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Nov 08 22:36:09.033 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 08 22:36:09.035 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 08 22:36:09.036 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 08 22:36:09.090 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 08 22:36:09.303 VM: VM Ghost shutdown.
+Nov 08 22:36:09.303 VM: VM Ghost destroyed.
+Nov 08 22:36:09.343 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:36:09.349 HYPERVISOR: exec_cmd: vm set_config TA configs\i1_startup-config.cfg 
+Nov 08 22:36:09.350 HYPERVISOR: exec_cmd: vm start TA 
+Nov 08 22:36:39.816 HYPERVISOR: exec_cmd: vm extract_config TA 
+Nov 08 22:40:28.713 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:40:28.716 HYPERVISOR: exec_cmd: vm stop TA 
+Nov 08 22:40:28.927 VM: VM TA shutdown.
+Nov 08 22:40:28.928 HYPERVISOR: exec_cmd: vm extract_config TA 
+Nov 08 22:40:33.507 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 08 22:40:33.510 VM: VM Ghost created.
+Nov 08 22:40:33.513 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/nilmc/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 08 22:40:33.516 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 08 22:40:33.518 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\nilmc\GNS3\projects\TXC\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-512.ghost' 
+Nov 08 22:40:33.520 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Nov 08 22:40:33.522 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 08 22:40:33.525 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 08 22:40:33.525 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 08 22:40:33.596 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 08 22:40:33.796 VM: VM Ghost shutdown.
+Nov 08 22:40:33.796 VM: VM Ghost destroyed.
+Nov 08 22:40:33.831 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:40:33.836 HYPERVISOR: exec_cmd: vm set_config TA configs\i1_startup-config.cfg 
+Nov 08 22:40:33.837 HYPERVISOR: exec_cmd: vm start TA 
+Nov 08 22:42:59.515 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:42:59.521 HYPERVISOR: exec_cmd: vm stop TA 
+Nov 08 22:42:59.710 VM: VM TA shutdown.
+Nov 08 22:42:59.711 HYPERVISOR: exec_cmd: vm extract_config TA 
+Nov 08 22:43:11.926 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:43:11.936 HYPERVISOR: exec_cmd: vm extract_config TA 
+Nov 08 22:43:12.193 HYPERVISOR: exec_cmd: vm get_status TA 
+Nov 08 22:43:12.195 HYPERVISOR: exec_cmd: vm extract_config TA 
+Nov 08 22:43:12.238 HYPERVISOR: exec_cmd: vm delete TA 
+Nov 08 22:43:12.238 VM: VM TA destroyed.
+Nov 08 22:43:12.258 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 08 22:43:12.467 HYPERVISOR: Stopped.
+Nov 08 22:43:12.467 GENERAL: reset done.
