@@ -1,0 +1,41 @@
+Nov 19 08:08:28.776 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 19 08:08:28.776 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35633.
+Nov 19 08:08:28.786 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 08:08:28.787 HYPERVISOR: exec_cmd: hypervisor working_dir /home/david/Escritorio/TXC-master/TXC/project-files/dynamips 
+Nov 19 08:08:28.787 GENERAL: working_dir=/home/david/Escritorio/TXC-master/TXC/project-files/dynamips
+Nov 19 08:08:28.787 HYPERVISOR: exec_cmd: hypervisor working_dir /home/david/Escritorio/TXC-master/TXC/project-files/dynamips/9039b8b1-67d8-4cec-afd6-de281725b0ce 
+Nov 19 08:08:28.787 GENERAL: working_dir=/home/david/Escritorio/TXC-master/TXC/project-files/dynamips/9039b8b1-67d8-4cec-afd6-de281725b0ce
+Nov 19 08:08:28.787 HYPERVISOR: exec_cmd: vm create R6 7 c7200 
+Nov 19 08:08:28.787 VM: VM R6 created.
+Nov 19 08:08:28.788 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5017 
+Nov 19 08:08:28.788 HYPERVISOR: exec_cmd: c7200 get_mac_addr R6 
+Nov 19 08:08:28.788 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:08:28.788 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-FE 
+Nov 19 08:08:28.789 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Nov 19 08:08:28.789 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:08:28.789 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x606df838 
+Nov 19 08:08:28.790 HYPERVISOR: exec_cmd: vm set_ios R6 /root/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 19 08:08:28.791 HYPERVISOR: exec_cmd: c7200 set_mac_addr R6 ca07.6fd8.0000 
+Nov 19 08:08:28.791 HYPERVISOR: exec_cmd: vm set_nvram R6 512 
+Nov 19 08:08:28.792 HYPERVISOR: exec_cmd: vm set_ram R6 512 
+Nov 19 08:08:28.792 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:08:28.792 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 PA-2FE-TX 
+Nov 19 08:08:28.793 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5017 
+Nov 19 08:08:29.122 HYPERVISOR: exec_cmd: nio create_udp udp-40176d76-24a0-4c5c-be7d-f4be3b0c6cfd 10030 127.0.0.1 10031 
+Nov 19 08:08:29.143 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-40176d76-24a0-4c5c-be7d-f4be3b0c6cfd 
+Nov 19 08:08:29.144 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:08:29.279 HYPERVISOR: exec_cmd: nio create_udp udp-3818235e-eb62-4584-8b87-969288017dab 10040 127.0.0.1 10041 
+Nov 19 08:08:29.280 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-3818235e-eb62-4584-8b87-969288017dab 
+Nov 19 08:08:29.280 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:09:34.669 HYPERVISOR: exec_cmd: vm set_ram R6 256 
+Nov 19 08:10:04.221 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Nov 19 08:10:04.221 HYPERVISOR: exec_cmd: vm set_ghost_file R6 /home/david/Escritorio/TXC-master/TXC/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Nov 19 08:10:04.221 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:10:04.222 HYPERVISOR: exec_cmd: vm set_config R6 configs/i7_startup-config.cfg 
+Nov 19 08:10:04.222 HYPERVISOR: exec_cmd: vm start R6 
+Nov 19 08:10:34.462 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 19 08:11:04.464 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 19 08:20:02.414 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 19 08:20:02.418 HYPERVISOR: exec_cmd: vm stop R6 
+Nov 19 08:20:02.527 VM: VM R6 shutdown.
+Nov 19 08:20:02.527 HYPERVISOR: exec_cmd: vm extract_config R6 

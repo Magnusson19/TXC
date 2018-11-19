@@ -115,9 +115,9 @@
             {
                 "drawing_id": "9754d02d-178c-4ac6-9ded-3781abd3db47",
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"530\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Funciona fins el punt 6 per tots els routers excepte R1-R4 on OSPF no funciona...</text></svg>",
-                "x": -567,
-                "y": -234,
+                "svg": "<svg height=\"25\" width=\"133\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Fet fins al punt 7</text></svg>",
+                "x": -444,
+                "y": -210,
                 "z": 1
             },
             {
@@ -540,7 +540,7 @@
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5012,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
@@ -568,7 +568,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca01.3e20.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -579,7 +579,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -634,7 +634,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5013,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -662,7 +662,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca03.30f0.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -673,7 +673,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -698,7 +698,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5005,
+                "console": 5014,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 59,
@@ -726,7 +726,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca04.2a2c.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -737,7 +737,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -762,7 +762,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5006,
+                "console": 5015,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -790,7 +790,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca05.b3cc.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -801,7 +801,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -826,7 +826,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5007,
+                "console": 5016,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -854,7 +854,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca06.c8dc.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -865,7 +865,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -890,7 +890,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5017,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -918,7 +918,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca07.6fd8.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -929,7 +929,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -954,7 +954,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5018,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -982,7 +982,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca08.97b0.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -993,7 +993,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1048,7 +1048,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5019,
                 "console_type": "telnet",
                 "first_port_name": null,
                 "height": 45,
@@ -1076,7 +1076,7 @@
                     "idlepc": "0x606df838",
                     "idlesleep": 30,
                     "image": "c7200-adventerprisek9-mz.124-24.T5.image",
-                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "image_md5sum": "2f9885e88eab5705dd4da9f970e2c5f9",
                     "mac_addr": "ca02.b020.0000",
                     "midplane": "vxr",
                     "mmap": true,
@@ -1087,7 +1087,7 @@
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1115,5 +1115,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.1.11",
-    "zoom": 50
+    "zoom": 71
 }

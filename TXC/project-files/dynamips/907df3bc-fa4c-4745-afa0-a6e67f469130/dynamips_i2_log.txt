@@ -1,0 +1,10 @@
+Nov 19 08:08:28.612 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 19 08:08:28.612 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58529.
+Nov 19 08:08:28.622 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 08:08:28.622 HYPERVISOR: exec_cmd: hypervisor working_dir /home/david/Escritorio/TXC-master/TXC/project-files/dynamips 
+Nov 19 08:08:28.622 GENERAL: working_dir=/home/david/Escritorio/TXC-master/TXC/project-files/dynamips
+Nov 19 08:08:28.622 HYPERVISOR: exec_cmd: frsw create FR-1 
+Nov 19 08:08:28.996 HYPERVISOR: exec_cmd: nio create_udp udp-e250daeb-7115-427b-be4d-e3d888536c2e 10022 127.0.0.1 10023 
+Nov 19 08:08:29.946 HYPERVISOR: exec_cmd: nio create_udp udp-998754c8-c67e-4839-b0e0-f0766e546e21 10071 127.0.0.1 10070 
+Nov 19 08:08:29.947 HYPERVISOR: exec_cmd: frsw create_vc FR-1 udp-998754c8-c67e-4839-b0e0-f0766e546e21 101 udp-e250daeb-7115-427b-be4d-e3d888536c2e 202 
+Nov 19 08:08:29.956 HYPERVISOR: exec_cmd: frsw create_vc FR-1 udp-e250daeb-7115-427b-be4d-e3d888536c2e 202 udp-998754c8-c67e-4839-b0e0-f0766e546e21 101 

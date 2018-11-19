@@ -1,0 +1,10 @@
+Nov 19 08:08:28.849 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 19 08:08:28.849 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51403.
+Nov 19 08:08:28.860 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 08:08:28.860 HYPERVISOR: exec_cmd: hypervisor working_dir /home/david/Escritorio/TXC-master/TXC/project-files/dynamips 
+Nov 19 08:08:28.860 GENERAL: working_dir=/home/david/Escritorio/TXC-master/TXC/project-files/dynamips
+Nov 19 08:08:28.860 HYPERVISOR: exec_cmd: atmsw create ATMswitch-1 
+Nov 19 08:08:29.459 HYPERVISOR: exec_cmd: nio create_udp udp-b8e7abd6-7110-4322-b469-88f374420d4f 10051 127.0.0.1 10050 
+Nov 19 08:08:29.542 HYPERVISOR: exec_cmd: nio create_udp udp-87b27df5-1db7-4b6e-ac3f-3499a3f1bf63 10054 127.0.0.1 10055 
+Nov 19 08:08:29.543 HYPERVISOR: exec_cmd: atmsw create_vcc ATMswitch-1 udp-b8e7abd6-7110-4322-b469-88f374420d4f 0 100 udp-87b27df5-1db7-4b6e-ac3f-3499a3f1bf63 0 200 
+Nov 19 08:08:29.551 HYPERVISOR: exec_cmd: atmsw create_vcc ATMswitch-1 udp-87b27df5-1db7-4b6e-ac3f-3499a3f1bf63 0 200 udp-b8e7abd6-7110-4322-b469-88f374420d4f 0 100 

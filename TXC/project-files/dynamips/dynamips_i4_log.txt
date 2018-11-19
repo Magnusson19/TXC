@@ -1,0 +1,36 @@
+Nov 19 08:08:28.676 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Nov 19 08:08:28.677 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35217.
+Nov 19 08:08:28.687 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 08:08:28.687 HYPERVISOR: exec_cmd: hypervisor working_dir /home/david/Escritorio/TXC-master/TXC/project-files/dynamips 
+Nov 19 08:08:28.687 GENERAL: working_dir=/home/david/Escritorio/TXC-master/TXC/project-files/dynamips
+Nov 19 08:08:28.687 HYPERVISOR: exec_cmd: hypervisor working_dir /home/david/Escritorio/TXC-master/TXC/project-files/dynamips/957d6da7-e043-4696-87d3-30b95fd6b8aa 
+Nov 19 08:08:28.687 GENERAL: working_dir=/home/david/Escritorio/TXC-master/TXC/project-files/dynamips/957d6da7-e043-4696-87d3-30b95fd6b8aa
+Nov 19 08:08:28.687 HYPERVISOR: exec_cmd: vm create TB 4 c7200 
+Nov 19 08:08:28.687 VM: VM TB created.
+Nov 19 08:08:28.688 HYPERVISOR: exec_cmd: vm set_con_tcp_port TB 5014 
+Nov 19 08:08:28.688 HYPERVISOR: exec_cmd: c7200 get_mac_addr TB 
+Nov 19 08:08:28.688 HYPERVISOR: exec_cmd: vm get_status TB 
+Nov 19 08:08:28.688 HYPERVISOR: exec_cmd: vm slot_add_binding TB 0 0 C7200-IO-FE 
+Nov 19 08:08:28.689 HYPERVISOR: exec_cmd: vm set_disk0 TB 0 
+Nov 19 08:08:28.689 HYPERVISOR: exec_cmd: vm get_status TB 
+Nov 19 08:08:28.689 HYPERVISOR: exec_cmd: vm set_idle_pc TB 0x606df838 
+Nov 19 08:08:28.689 HYPERVISOR: exec_cmd: vm set_ios TB /root/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 19 08:08:28.690 HYPERVISOR: exec_cmd: c7200 set_mac_addr TB ca04.2a2c.0000 
+Nov 19 08:08:28.690 HYPERVISOR: exec_cmd: vm set_nvram TB 512 
+Nov 19 08:08:28.690 HYPERVISOR: exec_cmd: vm set_ram TB 512 
+Nov 19 08:08:28.691 HYPERVISOR: exec_cmd: vm set_con_tcp_port TB 5014 
+Nov 19 08:08:29.714 HYPERVISOR: exec_cmd: nio create_udp udp-149463e5-9412-45b5-ba9d-45c1972477c2 10062 127.0.0.1 10063 
+Nov 19 08:08:29.738 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TB 0 0 udp-149463e5-9412-45b5-ba9d-45c1972477c2 
+Nov 19 08:08:29.739 HYPERVISOR: exec_cmd: vm get_status TB 
+Nov 19 08:09:53.638 HYPERVISOR: exec_cmd: vm set_ram TB 256 
+Nov 19 08:10:03.972 HYPERVISOR: exec_cmd: vm set_ghost_status TB 2 
+Nov 19 08:10:03.973 HYPERVISOR: exec_cmd: vm set_ghost_file TB /home/david/Escritorio/TXC-master/TXC/project-files/dynamips/c7200-adventerprisek9-mz.124-24.T5.image-256.ghost 
+Nov 19 08:10:03.974 HYPERVISOR: exec_cmd: vm get_status TB 
+Nov 19 08:10:03.974 HYPERVISOR: exec_cmd: vm set_config TB configs/i4_startup-config.cfg 
+Nov 19 08:10:03.975 HYPERVISOR: exec_cmd: vm start TB 
+Nov 19 08:10:34.197 HYPERVISOR: exec_cmd: vm extract_config TB 
+Nov 19 08:11:04.199 HYPERVISOR: exec_cmd: vm extract_config TB 
+Nov 19 08:20:02.255 HYPERVISOR: exec_cmd: vm get_status TB 
+Nov 19 08:20:02.266 HYPERVISOR: exec_cmd: vm stop TB 
+Nov 19 08:20:02.393 VM: VM TB shutdown.
+Nov 19 08:20:02.395 HYPERVISOR: exec_cmd: vm extract_config TB 
