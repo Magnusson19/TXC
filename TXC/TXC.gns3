@@ -115,9 +115,9 @@
             {
                 "drawing_id": "9754d02d-178c-4ac6-9ded-3781abd3db47",
                 "rotation": 0,
-                "svg": "<svg height=\"25\" width=\"133\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Fet fins al punt 9</text></svg>",
-                "x": 17,
-                "y": -242,
+                "svg": "<svg height=\"25\" width=\"58\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Acabat</text></svg>",
+                "x": 60,
+                "y": -228,
                 "z": 1
             },
             {
@@ -883,8 +883,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": 46,
-                "y": -161,
+                "x": 57,
+                "y": -151,
                 "z": 0
             },
             {
